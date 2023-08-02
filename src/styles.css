@@ -1,0 +1,62 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  margin-top: 20px;
+}
+body {
+  background-color: lightblue;
+}
+
+.welcome {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5vh;
+}
+
+.frame {
+  background-color: #2d2d2d;
+  border: 10px solid #2d2d2d;
+  max-width: 300px;
+  margin: auto;
+}
+
+#equals {
+  grid-column-start: 4;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+#question {
+  height: 2vh;
+  font-size: 2vh;
+}
+
+#answer {
+  font-size: 5vh;
+}
+
+.display {
+  background-color: green;
+  color: black;
+  text-align: right;
+}
+
+.key {
+  background-color: grey;
+  color: white;
+  font-size: 3vh;
+}
+
+#clear {
+  background-color: red;
+}
+
+#equals {
+  background-color: #007fff;
+}
