@@ -20,8 +20,12 @@ export default function App() {
     setQuestion(question.substring(0, question.length - 1));
   }
 
-  function workOut() {
-    setAnswer(evaluate(question));
+function workOut() {
+    try {
+      setAnswer(evaluate(question));
+    } catch (error) {
+      setAnswer("Syntax Error");
+    }
   }
   return (
     /* jsx will go here */
